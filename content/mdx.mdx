@@ -5,7 +5,18 @@ title: 'MDX support'
 tags: ['markdown', 'mdx']
 ---
 
+import Button from '@material-ui/core/Button'
 import { Counter } from '../src/components/Counter'
+import Hello from '../src/components/Hello'
+import BadgeVisibility from '../src/components/MuiBadgeDemo'
+
+<Counter />
+<Hello name="Tim" />
+<Button variant="contained" color="primary">
+  Primary
+</Button>
+<BadgeVisibility />
+
 
 This starter supports [MDX](https://mdxjs.com). MDX is a format that lets you
 seamlessly use JSX in your Markdown documents. You can import components, like
