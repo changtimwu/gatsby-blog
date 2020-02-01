@@ -6,6 +6,9 @@
   "dependencies": {
     "@emotion/core": "^10.0.4",
     "@emotion/styled": "^10.0.4",
+    "@material-ui/core": "^4.9.0",
+    "@material-ui/icons": "^4.5.1",
+    "@material-ui/styles": "^4.9.0",
     "@mdx-js/mdx": "^1.0.20",
     "@mdx-js/react": "^1.0.20",
     "@pacote/react-use-outside": "^1.0.2",
@@ -21,6 +24,7 @@
     "gatsby-plugin-feed": "^2.0.5",
     "gatsby-plugin-lunr": "^1.2.0",
     "gatsby-plugin-manifest": "^2.0.2",
+    "gatsby-plugin-material-ui": "^2.1.6",
     "gatsby-plugin-mdx": "^1.0.17",
     "gatsby-plugin-netlify": "^2.0.0",
     "gatsby-plugin-nprogress": "^2.0.5",
