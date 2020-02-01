@@ -2151,6 +2151,22 @@
     semver "^6.3.0"
     tsutils "^3.17.1"
 
+"@vssue/api-github-v3@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@vssue/api-github-v3/-/api-github-v3-1.4.0.tgz#ab944c7d96173c2716d333693a451d441b3ec66e"
+  integrity sha512-lT8n1WQDjgZM/i0baIG6JVUCxxqlNMgCQiElo+DGV5/kH5vbxbgdinL8jitqe5mW4obZowWceeCCvD//X4euEA==
+  dependencies:
+    "@vssue/utils" "^1.4.0"
+    axios "^0.18.1"
+
+"@vssue/utils@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@vssue/utils/-/utils-1.4.0.tgz#3cc2fd8492a3409e343289981e2209b6ca2f8313"
+  integrity sha512-3d9WCYNurdFKApFzU8i7YD1GCGhunEVYnwSJxwQ2rDmEdpLneAYNJWg9+QS6bqzB+Pw7ymtwLf/Sqti9+xUGqA==
+  dependencies:
+    date-fns "^1.29.0"
+    qs "^6.6.0"
+
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.8.5.tgz#51b1c5fe6576a34953bf4b253df9f0d490d9e359"
@@ -2795,6 +2811,14 @@ aws4@^1.8.0:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.9.1.tgz#7e33d8f7d449b3f673cd72deb9abdc552dbe528e"
   integrity sha512-wMHVg2EOHaMRxbzgFJ9gtjOOCrI80OHLG14rxi28XwOW8ux6IiEbRCGGGqCtdAIg4FQCbW20k9RsT4y3gJlFug==
+
+axios@^0.18.1:
+  version "0.18.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.18.1.tgz#ff3f0de2e7b5d180e757ad98000f1081b87bcea3"
+  integrity sha512-0BfJq4NSfQXd+SkFdrvFbG7addhYSBA2mQwISr46pD6E5iqkWg02RAs8vyTT/j0RTnoYmeXauBuSv1qKwR179g==
+  dependencies:
+    follow-redirects "1.5.10"
+    is-buffer "^2.0.2"
 
 axios@^0.19.0:
   version "0.19.2"
@@ -4863,7 +4887,7 @@ dataloader@^1.4.0:
   resolved "https://registry.yarnpkg.com/dataloader/-/dataloader-1.4.0.tgz#bca11d867f5d3f1b9ed9f737bd15970c65dff5c8"
   integrity sha512-68s5jYdlvasItOJnCuI2Q9s4q98g0pCyL3HrcKJu8KNugUl8ahgmZYg38ysLTgQjjXX3H8CJLkAvWrclWfcalw==
 
-date-fns@^1.27.2:
+date-fns@^1.27.2, date-fns@^1.29.0:
   version "1.30.1"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-1.30.1.tgz#2e71bf0b119153dbb4cc4e88d9ea5acfb50dc05c"
   integrity sha512-hBSVCvSmWC+QypYObzwGOd9wqdDpOt+0wl0KbU+R+uuZBS1jN8VsD1ss3irQDknRj5NvxiTF6oj/nDRnN/UQNw==
@@ -6797,6 +6821,20 @@ gatsby-link@^2.2.28:
     "@types/reach__router" "^1.2.6"
     prop-types "^15.7.2"
 
+gatsby-page-utils@^0.0.37:
+  version "0.0.37"
+  resolved "https://registry.yarnpkg.com/gatsby-page-utils/-/gatsby-page-utils-0.0.37.tgz#6ebc47acc790574b7bfa1f628b36ea95f261cb89"
+  integrity sha512-kAeHm8yLYLelexOncfg/43TnbDcsfYIByP8IEeTDS7hJ+PLAxbwPTo8QvPX6sXi3F5PgpSwtqPEPGSqthRqJlw==
+  dependencies:
+    "@babel/runtime" "^7.7.6"
+    bluebird "^3.7.2"
+    chokidar "3.3.0"
+    fs-exists-cached "^1.0.0"
+    gatsby-core-utils "^1.0.26"
+    glob "^7.1.6"
+    lodash "^4.17.15"
+    micromatch "^3.1.10"
+
 gatsby-page-utils@^0.0.38:
   version "0.0.38"
   resolved "https://registry.yarnpkg.com/gatsby-page-utils/-/gatsby-page-utils-0.0.38.tgz#a43d4b5e039b622364ca680caedddc8006469816"
@@ -7404,6 +7442,11 @@ github-from-package@0.0.0:
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/github-from-package/-/github-from-package-0.0.0.tgz#97fb5d96bfde8973313f20e8288ef9a167fa64ce"
   integrity sha1-l/tdlr/eiXMxPyDoKI75oWf6ZM4=
+
+github-markdown-css@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/github-markdown-css/-/github-markdown-css-3.0.1.tgz#d08db1060d2e182025e0d07d547cfe2afed30205"
+  integrity sha512-9G5CIPsHoyk5ObDsb/H4KTi23J8KE1oDd4KYU51qwqeM+lKWAiO7abpSgCkyWswgmSKBiuE7/4f8xUz7f2qAiQ==
 
 github-slugger@^1.2.1:
   version "1.2.1"
@@ -8693,7 +8736,7 @@ is-buffer@^1.1.4, is-buffer@^1.1.5, is-buffer@~1.1.1:
   resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
   integrity sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==
 
-is-buffer@^2.0.0, is-buffer@~2.0.3:
+is-buffer@^2.0.0, is-buffer@^2.0.2, is-buffer@~2.0.3:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-2.0.4.tgz#3e572f23c8411a5cfd9557c849e3665e0b290623"
   integrity sha512-Kq1rokWXOPXWuaMAqZiJW4XxsmD9zGx9q4aePabbn3qCRGedtH7Cm+zV8WETitMfu1wdh+Rvd6w5egwSngUX2A==
@@ -12761,6 +12804,11 @@ qs@6.7.0:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
+qs@^6.6.0:
+  version "6.9.1"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.1.tgz#20082c65cb78223635ab1a9eaca8875a29bf8ec9"
+  integrity sha512-Cxm7/SS/y/Z3MHWSxXb8lIFqgqBowP5JMlTUFyJN88y0SGQhVmZnqFK/PeuMX9LzUyWsqqhNxIyg0jlzq946yA==
+
 qs@~6.5.2:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
@@ -15901,6 +15949,44 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
+
+vssue@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/vssue/-/vssue-1.4.2.tgz#5968275c79a02f031a629548479edcdcc6232d84"
+  integrity sha512-DiuKrUQVKbxylLkMsFPsFpGn5GRtl6+kQTJLDEahDlj+p9Wqoea3klMGHaXyMdHR84riyLQ/gcMfcyOO2DUAGA==
+  dependencies:
+    "@vssue/utils" "^1.4.0"
+    github-markdown-css "^3.0.1"
+    vue "^2.6.10"
+    vue-i18n "^8.11.2"
+    vue-property-decorator "^8.1.1"
+
+vue-class-component@^7.1.0:
+  version "7.2.2"
+  resolved "https://registry.yarnpkg.com/vue-class-component/-/vue-class-component-7.2.2.tgz#aecc6d28801f64c61eb04407cf3a5476da26b0c0"
+  integrity sha512-QjVfjRffux0rUBNtxr1hvUxDrfifDvk9q/OSdB/sKIlfxAudDF2E1YTeiEC+qOYIOOBGWkgSKQSnast6H+S38w==
+
+vue-i18n@^8.11.2:
+  version "8.15.3"
+  resolved "https://registry.yarnpkg.com/vue-i18n/-/vue-i18n-8.15.3.tgz#9f947802d9b734fcb92e2ce724da654f2f9fc0f4"
+  integrity sha512-PVNgo6yhOmacZVFjSapZ314oewwLyXHjJwAqjnaPN1GJAJd/dvsrShGzSiJuCX4Hc36G4epJvNXUwO8y7wEKew==
+
+vue-property-decorator@^8.1.1:
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/vue-property-decorator/-/vue-property-decorator-8.3.0.tgz#536f027dc7d626f37c8d85a2dc02f0a6cb979440"
+  integrity sha512-77YtTbZHd5CNiPzbqv51kEgL48yvD2dUDfF28vEyw3MbQ9bBAb/tDyFzskcqjNRbWyXk1vq4oM2CK/LfhxuIBg==
+  dependencies:
+    vue-class-component "^7.1.0"
+
+vue@^2.6.10:
+  version "2.6.11"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.11.tgz#76594d877d4b12234406e84e35275c6d514125c5"
+  integrity sha512-VfPwgcGABbGAue9+sfrD4PuwFar7gPb1yl1UK1MwXoQPAw0BKSqWfoYCT/ThFrdEVWoI51dBuyCoiNU9bZDZxQ==
+
+vuera@^0.2.7:
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/vuera/-/vuera-0.2.7.tgz#8046ac9a7ce961b1c81f84218b3be4eaaa7ba940"
+  integrity sha512-MZErNEK+xXjxBzIDFL9cdEtX3TDZk4pMJGB+WLrlFOVro9okS/FeOSpdPFkpdyZUImZN/or4CrmztA932ChGEQ==
 
 w3c-hr-time@^1.0.1:
   version "1.0.1"

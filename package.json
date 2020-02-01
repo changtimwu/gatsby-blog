@@ -11,6 +11,7 @@
     "@pacote/react-use-outside": "^1.0.2",
     "@reach/router": "^1.2.0",
     "@types/lunr": "^2.1.6",
+    "@vssue/api-github-v3": "^1.4.0",
     "core-js": "^3.1.4",
     "emotion": "^10.0.4",
     "emotion-server": "^10.0.4",
@@ -54,7 +55,9 @@
     "typeface-domine": "^0.0.72",
     "typeface-montserrat": "^0.0.75",
     "typography": "^0.16.17",
-    "typography-breakpoint-constants": "^0.16.18"
+    "typography-breakpoint-constants": "^0.16.18",
+    "vssue": "^1.4.2",
+    "vuera": "^0.2.7"
   },
   "devDependencies": {
     "@babel/core": "^7.1.0",
