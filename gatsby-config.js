@@ -31,13 +31,14 @@ const gatsbyRemarkPlugins = [
 
 module.exports = {
   siteMetadata: {
-    title: 'TypeScript Gatsby Starter',
-    author: 'Luís Rodrigues',
-    description: 'A Gatsby starter using TypeScript.',
-    siteUrl: 'https://goblindegook-gatsby-starter-typescript.netlify.com'
+    title: "Tim's Technical Notes",
+    author: 'Chang-Ting Wu',
+    description: 'Some tech thoughts',
+    siteUrl: 'https://timwutechnotes.netlify.com'
   },
   plugins: [
     'gatsby-plugin-typescript',
+    'gatsby-plugin-material-ui',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-emotion',
     {
