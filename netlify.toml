@@ -1,3 +1,4 @@
 [build]
   publish = "public"
   command = "yarn lint && yarn build && yarn test"
+  functions = "built-lambda"
