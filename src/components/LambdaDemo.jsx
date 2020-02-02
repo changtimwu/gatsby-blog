@@ -1,4 +1,6 @@
 import React, { Component } from "react"
+import ButtonGroup from '@material-ui/core/ButtonGroup'
+import Button from '@material-ui/core/Button'
 
 class LambdaDemo extends Component {
   constructor(props) {
@@ -17,14 +19,12 @@ class LambdaDemo extends Component {
 
   render() {
     const { loading, msg } = this.state
-
     return (
-      <p>
-        <button onClick={this.handleClick("hello")}>{loading ? "Loading..." : "Call Lambda"}</button>
-        <button onClick={this.handleClick("async-dadjoke")}>{loading ? "Loading..." : "Call Async Lambda"}</button>
-        <br />
-        <span>{msg}</span>
-      </p>
+       <ButtonGroup>
+         <Button onClick={this.handleClick("hello")}>{loading ? "Loading..." : "Call Lambda"}</Button>
+         <Button color="primary" onClick={this.handleClick("async-dadjoke")}>{loading ? "Loading..." : "Call Async Lambda"}</Button>
+         <span>message: {msg}</span>
+       </ButtonGroup>
     )
   }
 }
