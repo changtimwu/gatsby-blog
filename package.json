@@ -1,8 +1,8 @@
 {
-  "name": "@goblindegook/gatsby-starter-typescript",
+  "name": "@changtimwu/gatsby-blog",
   "description": "A Gatsby starter the way I like it.",
   "version": "1.0.0",
-  "author": "Luís Rodrigues <hello@goblindegook.com>",
+  "author": "Chang-Ting Wu <changtimwu@gmail.com>",
   "dependencies": {
     "@emotion/core": "^10.0.4",
     "@emotion/styled": "^10.0.4",
@@ -109,7 +109,9 @@
   "keywords": [
     "gatsby",
     "markdown",
-    "typescript"
+    "typescript",
+    "mdx",
+    "vssue"
   ],
   "license": "MIT",
   "scripts": {
