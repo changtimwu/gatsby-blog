@@ -51,6 +51,10 @@ $ npm run develop
 - gatsby-source-filesystem
 - gatsby-transformer-sharp
 
+## 💫 Deploy
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/changtimwu/gatsby-blog)
+
 ## Tools
 
 - Testing: [Jest](https://jestjs.io) and [react-testing-library](https://github.com/testing-library/react-testing-library)
