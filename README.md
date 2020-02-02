@@ -53,7 +53,10 @@ $ npm run develop
 
 ## 💫 Deploy
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f2af5e6d-be35-4937-8764-afaf170a2b3b/deploy-status)](https://app.netlify.com/sites/goofy-euler-2fa655/deploys)
+
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/changtimwu/gatsby-blog)
+
 
 ## Tools
 
