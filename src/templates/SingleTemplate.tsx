@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 import { SinglePageQuery } from 'generated/types/gatsby'
 import { Layout } from '../components/Layout'
+import RVssue from '../../plugins/gatsby-plugin-vssue'
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const MDXRenderer = require('gatsby-plugin-mdx/mdx-renderer')
@@ -22,6 +23,7 @@ const ContentTemplate = ({ data }: ContentTemplateProps) => {
       <h2>{frontmatter.title}</h2>
       <h3>{frontmatter.date}</h3>
       <MDXRenderer>{body}</MDXRenderer>
+      <RVssue title={frontmatter.title} />
     </Layout>
   )
 }
