@@ -4,9 +4,10 @@
 node_modules/
 yarn-error.log
 
-tmp
+/tmp
 *.log
 
 # Build directory
 /public/
+/built-lambda/
 /coverage/
