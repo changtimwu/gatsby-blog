@@ -1,7 +1,7 @@
 let opts={}
 exports.onPreInit = ( _ref, pluginOptions ) => {
-  let { ower, repo, clientId, clientSecret} = pluginOptions
-  opts ={ ower, repo, clientId, clientSecret}
+  let { owner, repo, clientId, clientSecret} = pluginOptions
+  opts ={ owner, repo, clientId, clientSecret}
 }
 
 exports.onCreateWebpackConfig = ({ stage, plugins, actions }) => {
