@@ -2,6 +2,13 @@
 const gatsbyRemarkPlugins = [
   'gatsby-plugin-typegen',
   {
+    resolve: "gatsby-remark-embed-video",
+    options: {
+      related: false,
+      noIframeBorder: true,
+    }
+  },
+  {
     resolve: 'gatsby-remark-smartypants',
     options: {
       dashes: 'oldschool'
