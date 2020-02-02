@@ -7,9 +7,9 @@ const ReactVssue = VueInReact(VssueComponent);
 
 let vssopts = {
     api: GithubV3,
-    autoCreateIssue: false
+    autoCreateIssue: true
 }
-console.log("GATSBY_VSSUE_OPTS=",  GATSBY_VSSUE_OPTS)
+
 vssopts = { ...vssopts, ...GATSBY_VSSUE_OPTS}
 export default (props) => <ReactVssue title={props.title} options={vssopts}/>
 
