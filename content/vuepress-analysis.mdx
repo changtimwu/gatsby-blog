@@ -1,0 +1,49 @@
+---
+path: '/content/vuepress-analysis'
+date: '2020-02-03'
+title: 'Borrow goods from VUEPress'
+tags: ['gatsby', 'reference', 'vuepress']
+---
+
+## Why
+* Most sites constructed with vuepress look glamorous
+* It has default layout and theme.  It saves your time on configuration. 
+* For example, https://lytzeng.github.io/
+
+## In-depth Analysis
+* site source: 
+  - markdown: https://github.com/LYTzeng/blog
+  - html: https://github.com/LYTzeng/lytzeng.github.io
+* post source: https://github.com/LYTzeng/blog/blob/master/docs/posts/frontend/Vue/vuepress-blog-1.md
+* rendered output: https://lytzeng.github.io/posts/frontend/Vue/vuepress-blog-1.html#navbar-%E5%B0%8E%E8%A6%BD%E5%88%97%E5%8D%80%E5%A1%8A
+* see the same markdown rendered in my gatsby settings.
+
+
+## 安裝 Yarn 和 VuePress
+
+VuePress 官方建議使用 yarn ，我的環境已經安裝 npm，因此使用npm安裝yarn。
+```bash
+npm install -g yarn
+```
+接著 cd 到你的專案路徑地底下，初始化 vuepress
+```bash
+yarn add -D vuepress
+```
+
+新增`docs`資料夾，在底下建立`README.md`，這將會作為首頁的頁面。
+VuePress 預設將 `docs` 當成網頁的根目錄，首頁就是`docs/README.md`
+接著在`package.json`新增 scripts 段落：
+```json
+"scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+}
+```
+> 對 yarn 來說`package.json` 的 scripts 作用 [請見這裡](https://yarnpkg.com/lang/en/docs/package-json/#toc-scripts)
+
+這樣編寫網頁時使用 `yarn docs:dev` 開啟 [localhost:8080](localhost:8080) 開發環境，
+編寫完成要 Deploy 時使用`yarn docs:build` 產生靜態網頁檔案，便可以 push 到 github pages。
+
+整個專案架構會像這樣：
+
+
