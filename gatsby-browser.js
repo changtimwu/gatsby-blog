@@ -1,4 +1,5 @@
-import 'normalize.css'
+// import 'normalize.css'
+import './src/styles/screen.css'
 import 'typeface-domine'
 import 'typeface-montserrat'
 import 'prismjs/themes/prism-okaidia.css'
